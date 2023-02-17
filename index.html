@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="my-20">
+            <div class="w-2/4 mx-auto bg-slate-400 text-center text-2xl p-5  rounded-md">
+                <div>
+                    <h2 class="text-2xl font-semibold">income</h2>
+                    <label for="">income</label>
+                    <input id="income-field" class="bg-slate-300" type="text">
+                </div>
+                <div>
+                    <h1 class="text-2xl font-semibold">Expenses</h1>
+                    <div class="my-3">
+                        <label for="">Food : </label>
+                        <input id="food-field" class="bg-slate-300" class="" type="text">
+                    </div>
+                    <div class="my-3">
+                        <label for="">Rent : </label>
+                        <input id="rent-field" class="bg-slate-300" class="" type="text">
+                    </div>
+                    <div class="my-3">
+                        <label for="">Cloth : </label>
+                        <input id="cloth-field" class="bg-slate-300" class="" type="text">
+                    </div>
+                    
+                </div>
+                <div>
+                    <button id="btn-calculate" class="bg-yellow-600 font-bold px-3 py-2 rounded-md hover:bg-red-500 hover:text-white">Calculate</button>
+                    <h1 class="text-2xl font-semibold">Total Expenses: <span id="total-expenses">00</span></h1>
+                    <h1 class="text-2xl font-semibold">Balance: <span id="remain-balance">00</span></h1>
+                </div>
+                <div class="my-3">
+                    <label for="">Save</label>
+                    <input id="percent-field" class="bg-slate-300" type="text">
+                    <span>%</span>
+                    <button id="btn-percent" class="bg-yellow-600 font-bold px-3 py-2 rounded-md hover:bg-red-500 hover:text-white">Save</button>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-semibold">Saving Account : <span id="saving-total">00</span></h1>
+                    <h1 class="text-2xl font-semibold">Rumaining Balance <span id="main-total">00</span></h1>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/balance.js"></script>
+</body>
+</html>
